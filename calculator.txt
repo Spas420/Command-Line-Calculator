@@ -1,0 +1,28 @@
+1. Commnad line calculator. No Graphical User Interface (GUI)
+2. Must have at least 6 operations: Addition (+), Subtratcion (-), Multiplication (*), Division (/), Power (**), Square Root (sqrt)
+3. Test: 
+
+>> Enter your first number: 5
+>> Enter the operator: *
+>> Enter your second number: 12
+The result of multiplying 5 by 12 is: 60
+
+hint: To calculate the square root use the math library
+
+// float naprei
+Command Line Tool:
+    >> python calculator.py 5 + 3
+    8
+    >> python calculator.py sqrt 9
+    3
+    >>
+
+Задачи:
+    1. Да разучиш КАК да parse-неш аргументите (5, +, 3, sqrt, 9) директно от терминала.
+    2. Програмата трябва да обхваща всеки възможен случай. Пример:
+        >> python calculator.py sqrt
+        Error: no operand for operator sqrt
+        >> python calculator.py 1 +
+        Error: missing second operand for '+' operator
+        >> python calculator.py 1 + 2
+        
